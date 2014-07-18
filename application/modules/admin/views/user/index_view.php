@@ -1,0 +1,1 @@
+<h1>Hello Admin Module - User controller - Index Action</h1>
