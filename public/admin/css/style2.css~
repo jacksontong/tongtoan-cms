@@ -154,36 +154,4 @@ width:600px;
 margin:auto;
 width:720px;
 }
-.mess_error {
-	background: #FF6600;
-	color: #FFFFFF;
-	margin: 15px;
-}
-
-.mess_error ul {
-	list-style-type: none;
-	padding: 0px;
-	margin: 0px;
-}
-
-.mess_error ul li {
-	padding:10px 10px 10px 15px;
-}
-
-.mess_succ {
-	background: #99CC00;
-	color: #FFF;
-	margin: 15px;
-}
-
-.mess_succ ul {
-	list-style-type: none;
-	padding: 0px;
-	margin: 0px;
-}
-
-.mess_succ ul li {
-	padding:10px 10px 10px 15px;
-}
-
 

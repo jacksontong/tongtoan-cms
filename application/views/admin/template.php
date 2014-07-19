@@ -12,9 +12,7 @@
     <div id="main">
     	
         <div id="info">
-        	<div align="center">
-			     <?php $this->load->view($loadPage); ?>
-            </div>
+	     <?php $this->load->view($loadPage); ?>
         </div>
     </div>
     <?php $this->load->view($module.'/bottom'); ?>

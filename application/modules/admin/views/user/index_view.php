@@ -1,3 +1,13 @@
+<div align="center">
+<?php 
+    if (isset($mess) && $mess != '') {
+        echo '<div class="mess_succ">';
+        echo '<ul>';
+        echo "<li>$mess</li>";
+        echo '</ul>';
+        echo '</div>';
+    }
+?>
 <table align="center" width="450">
 	<tr>
     	<td colspan="6"><strong><a href="<?php echo base_url()."$module/user/add"; ?>"><font color="#99CC33">Add A User</font></a></strong></td>
@@ -34,3 +44,4 @@
 <?php 
 	echo $page_link;
 ?>
+</div>
